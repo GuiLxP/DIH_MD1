@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+body {
+    text-align: center;
+    color: #F3F3F3F3;
+    background: #000000;
+    font-family: Comfortaa;
+}
+
+#mostraTexto {
+    color: aqua;
+    font-weight: 700;
+    font-size: 64px;
+}

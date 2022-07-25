@@ -1,0 +1,87 @@
+Anotações da Aula
+
+
+DOM (Document Objetct Model) => é a representação de dados dos objetos na web.
+Para acessar o DOM, utilizamos o objeto global javascript "document".
+
+diferença para innerHTML para innerText;
+innerText => Somente texto;
+interHTML => É possível colocar tags, programar dentro dele
+
+
+
+
+--COMO CRIAR ELEMENTOS VIA JAVASCRIPT-------------
+<body>
+    <ul id="lista"></ul>
+    <script>
+        const title = document.createElement("title");
+        title.innerText = "Titulo da aba";
+        document.head.append(title);
+
+        const lista = document.querySelector("#lista");
+
+        const li = document.createElement("li");
+        li.innerText = "texto dinamico";
+        li.style.backgroundColor = "green"; //reparar no camelCase
+
+        lista.append(li);
+    </script>
+</body>
+
+appendChild => Somente para tags HTML.
+append => É possível colocar até mesmo um texto dentro de um elemento. 
+append adiciona sempre em baixo.
+
+depracated => getElementById("");
+
+querySelector("h3") => Pega somente o primeiro elemento
+querySelectorAll("h3") => Seleciona todos os elementos
+
+---COMO MANIPULAR ESTILOS DE ELEMENTOS UTILIZANDO JAVASCRIPT--
+
+<body>
+    <ul id="lista"></ul>
+    <script>
+        const title = document.createElement("title");
+        title.innerText = "Titulo da aba";
+        document.head.append(title);
+
+        const lista = document.querySelector("#lista");
+
+        const li = document.createElement("li");
+        li.innerText = "texto dinamico";
+
+        lista.append(li);
+        li.style.padding = "30px";
+        li.style.border = "5px solid black";
+    </script>
+</body>
+
+
+--KANBAN
+Tradução => Cartãozinho/Cartões
+
+Desenvolvido pela Toyota, pelo gerente Taiichi Ono.
+
+KANBAN BOARD
+Quadro, Colunas, Cartões('kanban')
+Mapeamento dos processos
+Sistema "puxado"            // Nunca deixar o card voltar para esquerda, umas das boas práticas é continuar para direita.
+Fluxo: esquerda para direita
+Priorizado: cima para baixo
+"WIP" e identificação de gargalos         // Work In Progress => Trabalho em andamento
+Atribuição e prazo nos cartões
+Quadro: modelos corporativos e acordado na equipe de dev
+Insumos p/ reunião diária do time
+
+
+Versionamento
+
+
+
+
+
+Importante perguntar na vivência de RH a noite!
+--Como que é a expectativa, e como que é o processo quando vocês recebem um desenvolvedor na equipe de vocês?--
+

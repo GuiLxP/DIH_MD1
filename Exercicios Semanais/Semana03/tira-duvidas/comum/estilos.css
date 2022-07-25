@@ -1,0 +1,28 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+input,
+button,
+p {
+  margin-bottom: 4px;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+ul li button {
+  background-color: #333;
+  color: #eee;
+}

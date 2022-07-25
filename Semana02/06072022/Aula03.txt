@@ -1,0 +1,64 @@
+Anotações da Aula
+
+
+prompt sempre devolve um valor string -> para usar números usar o parseInt(valor)
+
+-----
+
+2 == 2    (true)  => Comparando dois valores do tipo 'number' (OK)
+2 == '2'  (true)  => Não considera o tipo. Chamamos de igualdade Estrita
+2 === '2' (false) => Considera o tipo. Chamamos de Igualdade Estrita
+2 === 2   (true)  => Considera o tipo. (OK)
+
+==  => Não considera o tipo
+=== => Considera o tipo (Igualdade Estrita), é o recomendado
+
+O mesmo vale para o operador de 'diferente':
+
+2 != 2    (false);
+2 != '2'  (false);
+2 !== '2' (true);
+2 !== 2   (false);
+
+OPERADORES LÓGICOS 
+
+!   ("NOT", "negação");             not
+&&  ("E" lógico, conjunção);        and
+||  ("OU" lógico, disjunção);       or
+
+AND ("E" lógico)
+true  && true  = true
+true  && false = false
+false && true  = false
+false && false = false
+
+OR ("OU" lógico)
+true  || true  = true
+true  || false = true
+false || true  = true
+false || false = false
+
+
+OPERADORES DE ATRIBUIÇÃO
+
+Incremento => DECREMENTO é o oposto de INCREMENTO --
+Exemplo:
+var idade = 10;
+console.log(idade++)  // 10
+console.log(idade);   // 11
+console.log(++idade); //12
+
+
+Variáveis: Nome dado a representação de um espaço na memória associado a um tipo (number, string, boolean, ...);
+
+Javascript: tipagem dinâmica;
+
+Arrays: Coleção de valores, possibilitando associar diversos valores a uma variavel
+
+Operadores Aritméticos: (+, -, /, *, ...).
+Relacionais:            (>, <, ==, <, ...).
+Lógicos:                (!, &&, ||).
+Atribuição:             (=, +=, -=, *=,...).
+
+-----
+

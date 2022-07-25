@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 12px;
+    margin: 12px;
+}
+
+label, input, button {
+    margin: 6px;
+}
+
+#result {
+    color: aqua;
+    font-weight: 700;
+    font-size: 22px;
+}

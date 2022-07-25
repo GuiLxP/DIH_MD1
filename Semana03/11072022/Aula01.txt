@@ -1,0 +1,29 @@
+------------ ESTRUTURAS DE CONTROLE DE FLUXO & DE REPETIÇÃO ------------ 
+
+	Condition
+    True/	  \ False
+    Do this		Do nothing or
+			Do this
+
+Quer converter algo para booleando? Use !! ou !
+
+
+Tipos de dados: string, number, boolean, object, function, undefined
+				array (object), null (object), NaN (number)
+Operadores:
+Aritméticos:   +   -   *   /   %   **   
+Atribuição:   =   +=   -=   *=   /=   %=   ++   --
+Relacionais:   <   >   <=   >=   ==   !=   ===   !==
+Lógicos:   !   ||   &&
+Ternário:  a ? b : c
+DOM:  getElement…()  querySelector…()
+
+
+
+Operadores Ternários: 
+a ? b: c   =>   
+
+
+na <script> quando colocamos o atributo defer, ele carrega todo o conteúdo e por último executa o arquivo do link.
+
+

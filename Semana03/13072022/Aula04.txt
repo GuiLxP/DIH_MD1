@@ -1,0 +1,78 @@
+---Objetos, JASON & LOCALSTORAGE---
+
+Objetos: são parecidos com vetores, porém, ao invés de estarmos limitados aos índices numéricos de 0 a N (0,1,2, ... N), podemos dar nomes aos índices. Inicializamos um objetos com "{}" ao invés de "[]".
+
+Chaves(Keys): Chamamsos os índices de um objeto de chaves. Quando inserimos um item em um objeto criamos um par chave-valor(key-value).
+
+O acesso se dá através de um "." (ponto) após o nome do objeto, seguido do nome da chave.
+Ex.1: pessoa.nome;
+Ex.2: pessoa['nome'];
+
+// inicia um vetor com 3 itens
+var vetor = [26, 33, 42];
+// acessa o segundo item do vetor (33)
+vetor[1];    // 33
+
+// inicia um objeto com 3 chaves
+var objeto = { a: 26, b: 33, c: 42 };
+
+// acessa a segunda chave do objeto
+objeto.b;     // 33
+objeto['b'];  // 33
+
+Dentro do objeto eu só posso ter coisas que podem colocar dentro de uma variável
+
+
+Na prática 
+
+const pessoa = [
+    { nome: "Romeu", idade: 29 },
+    { nome: "Ada", idade: 27 },
+];
+
+function imprimeOi(p) {
+    console.log(`${p.nome} tem ${p.idade} anos!`);
+}
+
+imprimeOi(pessoa[1]);
+
+
+
+// Podemos inserir em objetos das seguintes formas
+
+const teste = {
+blih: 666,
+};
+
+teste.blah = 333;
+teste['bleh'] = 999;
+
+console.log(teste);
+
+
+JSON --
+JSON (JavaScript Object Notation) é a representação da estrutura de objetos JavaScript em forma de texto (string), baseada em pares de chave-valor e listas.
+Muito utilizado para enviar dados do back-end para o front-end e vice-versa, manipular estruturas de dados com texto.
+Fácil de ler e entender os dados contidos em um texto JSON.
+Processamento leve e de fácil interpretação.
+
+Embora o JSON seja derivado do JavaScript, ele é suportado de forma nativa ou através de bibliotecas na maior parte das principais linguagens de programação.
+O que torna esse formato ideal para troca de dados entre aplicações, mesmo que sejam escritas em diferentes linguagens.
+É o formato favorito para quase todos os serviços web disponíveis publicamente, e também é usado com frequência para serviços web privados.
+
+
+
+Como desviar valores do input=text => id"campo-valor" script abaixo =>
+
+const entrada = document.getElementById('campo-valor')
+console.log(entrada.value);
+
+button id="btn-exec"
+const btnExec = document.querySelector('#btn-exec')
+
+btnExec.addEventListener('click', () => {
+console.log('O valor é ${entrada.value}')
+})
+
+innerHTML = Entre as tags HTML
+

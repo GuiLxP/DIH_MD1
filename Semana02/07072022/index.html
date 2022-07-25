@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="text/script" href="/script.js">
+    <title>Aula 4</title>
+</head>
+
+<body>
+    <p>Minha Página</p>
+    <div id="div1" class="minha-div"></div>
+
+    <script>
+        var elP = document.createElement('p');
+        elP.innerText = 'Criado dinâmicamente via JavaScript';
+        elP.style.color = 'blue';
+        elP.style.fontSize = '1.3rem';
+        elP.style.margin = '30px';
+
+        var elDiv = document.querySelector('#div1');
+        elDiv.append(elP);
+
+        var elLista = document.createElement('ol');
+        var elLi1 = document.createElement('li');
+        elLi1.innerText = "Primeiro item";
+        var elLi2 = document.createElement('li');
+        elLi2.innerText = "Segundo item";
+        elLista.append(elLi1);
+        elLista.append(elLi2);
+
+        elDiv.append(elLista)
+
+        document.querySelector('ol');
+    </script>
+
+</body>
+</html>

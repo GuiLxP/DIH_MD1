@@ -1,0 +1,49 @@
+Romeu Isaac Casarotto - Trabalha com WEB
+
+6ª semana teremos nosso primeiro projeto, em web que será avaliado, semana inteira para fazer o projeto.
+Entrega do projeto pelo bitbucket
+
+- Modelo OSI e TCP/IP - Processo de comunicação em redes | https://youtu.be/oz8gvGIUKFw
+- Network Stacks and the Internet | https://youtu.be/PG9oKZdFb7w
+- What is TCP/IP? | https://youtu.be/PpsEaqJV_A0
+- IP Addresses and the Internet - Computerphile | https://youtu.be/L6bDA5FK6gs
+- Internet Protocol - IPv4 vs IPv6 as Fast As Possible | https://youtu.be/aor29pGhlFE
+- Como funciona a Internet? Parte 3: DNS | https://youtu.be/ACGuo26MswI
+- How DNS Works - Computerphile | https://youtu.be/uOfonONtIuk
+- DNS as Fast As Possible | https://youtu.be/Rck3BALhI5c
+- Protocolo HTTP e TCP/IP #1 - Introdução (Fácil) | https://youtu.be/V4XZ81vRGtM
+- SSL, TLS, HTTP, HTTPS Explained | https://youtu.be/hExRDVZHhig
+- How HTTPS works | https://youtu.be/w0QbnxKRD0w
+- Como a internet funciona? - Glad You Asked T1 | https://youtu.be/TNQsmPf24go
+- Por onde vem a internet? Seguimos a fibra até sua casa! | https://youtu.be/fYJl-7jRzuw
+- How Do URLs Work? | https://youtu.be/OvF_pnJ6zrY
+- História da Internet | https://rockcontent.com/br/blog/historia-da-internet
+- Como funciona a Internet | https://pensandonaweb.com.br/como-funciona-a-internet-e-a-world-wide-web
+- Como a Web funciona | developer.mozilla.org/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+- URL - Wikipédia | https://pt.wikipedia.org/wiki/URL
+- O Que é TLD? | https://www.hostinger.com.br/tutoriais/o-que-e-tld
+
+Segunda a Quinta -> Chamada obrigatória
+Sexta-Feira -> Mentoria, tira dúvidas
+
+Fazer um perfil no Chrome para -> DEVinEDP
+
+Acessar pela conta Google do Trello: Cada um dos alunos, receberão uma conta.
+
+Boas Práticas:
+- Separe um tempo na sua agenda para reforçar os conteúdos.
+	São 900h de curso
+	É necessário em média 25h semanais de dedicação
+- Não deixe as tarefas acumularem
+- Participe das dailies, reviews e plannings
+- Participe das aulas síncronas
+	Mantenha a câmera ligada
+	Pergunte e não fique com dúvidas
+	Desenvolva as soft-skills
+
+**Não modifique as estruturas e ferramentas que foram apresentadas. Lembre-se que estamos simulando o dia a dia de um desenvolvedor, sinta-se como um Dev da DEVinHouse Inc.**
+
+-Contato-
+E-mail: aluno.cdi@sesisenai.org.br
+Whats App: (048) 3239-5802
+

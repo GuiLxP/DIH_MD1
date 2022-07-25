@@ -1,0 +1,3 @@
+Programação Orientada a Objetos
+
+A OOP é um paradigma de programaçção baseado no conceito de agrupar dados com o comportamento relacionado a esses dados, colocando em apcotes especiais chamados "objetos".

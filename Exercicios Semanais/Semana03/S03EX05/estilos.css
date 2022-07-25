@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    color: #F3F3F3F3;
+    background: #000000;
+}
+
+#mostraTexto {
+    color: aqua;
+    font-weight: 700;
+    font-size: 64px;
+}

@@ -1,0 +1,24 @@
+----- Aula 04 BitButcket -----
+Versionamento não é Git, git é uma forma de versionamento.
+
+Que problemas veio resolver?
+Git é um sistema de controle de versão de arquivos.
+Com ele, podemos manter um histórico de todas as alterações que foram realizadas em nossos arquivos de código-fonte.
+Em equipe, podemos visualizar todas as alterações realizadas por todos os membros.
+
+Cada "salvar" desses, fica registrado em um "pacotinho de alterações". É o que chamamos de "commit".
+Quando você quiser voltar o estado da sua aplicação para um ponto específico do passado, ou apenas visualizar como era esse código em algum momento passado, você faz isso facilmente.
+Seja para comparar uma versão do código que funcionava com outra que não está mais funcionando, resolvendo um bug.
+Ou apenas descobrir o que foi alterado de uma versão para outra, por diversas outras razões.
+Cada "salvar" desses, fica registrado em um "pacotinho de alterações". É o que chamamos de "commit".
+Quando você quiser voltar o estado da sua aplicação para um ponto específico do passado, ou apenas visualizar como era esse código em algum momento passado, você faz isso facilmente.
+Seja para comparar uma versão do código que funcionava com outra que não está mais funcionando, resolvendo um bug.
+Ou apenas descobrir o que foi alterado de uma versão para outra, por diversas outras razões.
+
+merge => Mesclar alterações que nós fizermos, e este processo se chama de merge.
+
+Pull request: é uma solicitação de que a branch principal "puxe" a suia branchh alternativa.
+
+Basicamente, é uma solicitação de merge que você envia da sua branch para a principal.
+
+Um mecanismo de segurança, para que os outros colaboradores revisem suas alterações antes de mesclá-las com a branch principal.
