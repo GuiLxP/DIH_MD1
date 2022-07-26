@@ -1,2 +1,5 @@
 Método estático 
 Um método estático é um método que pertence a uma classe, mas não pertence a uma instância dessa classe e esse método pode ser chamado sem a instância ou objeto dessa classe.
+
+Para entendermos sobre as Arrow Functions, entendemos mais como uma questão de escopo, pois a arrowF referencia a instancia
+E a Funcao normal referencia o evento daquele momento.
