@@ -3,3 +3,29 @@ Um método estático é um método que pertence a uma classe, mas não pertence 
 
 Para entendermos sobre as Arrow Functions, entendemos mais como uma questão de escopo, pois a arrowF referencia a instancia
 E a Funcao normal referencia o evento daquele momento.
+
+
+.map() = para cada item, ele vai salvar o retorno e criar um vetor.
+
+.forEach() = não cria um novo vetor com o resultado das funções.
+
+.filter() = o filtro vai depender de um teste que irei fazer para cada item, podemos colocar um teste dentro da função que estiver dentro do filter
+EX: const vetB = [100, 200, 300,400];
+    const resB = vetB.filter((item) => item > 200);
+    //Ou
+    const resB = vetB.filter((item, i) => i % 2 === 0);
+
+.find() = similar ao filter no quesito no teste, ele vai executar a funcao para cada um dos itens mas o primeiro resultado que der verdadeiro, ele vai parar nele, se ele nao encontra nada ele retorna undefined, ele nao retorna um array inteiro, ele retorna apenas o item resultante de true.
+
+.every() = teste em todos os itens, para verificar se todos atendem o teste definido, se todos os testes forem resultantes de true, ele retorna true. Mas se apenas um der false, ele retorna false.
+
+.some() = funciona da mesma forma que o every, mas com o retorno oposto, se um der true o some retorna true.
+
+.includes() = ele testa se existe um item dentro do vetor, ele nao recebe uma funcao, ele recebe um valor e retorna true ou false se existe o valor.
+
+.reduce() = reduzir tudo a um unico item resultante.
+EX: const vetG = [100,200,300,400]
+    const resG = vetG.reduce((acumulador, item) => {
+        return acumulador + item
+    }, 33)  // Ele inicia com o valor descrito após a vírgula.
+            // return 1033

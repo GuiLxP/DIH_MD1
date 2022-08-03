@@ -1,3 +1,5 @@
+console.log("M1S05-AULA1");
+
 // const funcaoComumA = () => {
 //     console.log("Sou uma função A!");
 // };
@@ -29,7 +31,6 @@
 //     console.log(`${item} - ${indice}`, array);
 // });
 
-console.log("M1S05-AULA1");
 // Funções equivalentes
 // const batata = function (arroz, feijao) {
 //     console.log(feijao);
@@ -41,9 +42,3 @@ console.log("M1S05-AULA1");
 //     console.log(feijao, arroz);
 // };
 // batata('feijao', 'arroz');
-
-
-
-
-
-
